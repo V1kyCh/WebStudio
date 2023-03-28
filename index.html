@@ -6,113 +6,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <!-- Секція HEADER -->
     <header>
-        <h3>WebStudio</h3>
-        <nav>
+        <h3 class="logo">WebStudio</h3>
+        <nav class="navigation">
             <ul>
                 <li>
-                    <a href="./index.html" target="_blank" rel="noopener noreferrer">Студія</a>
+                    <a class="navigation-link" href="./index.html" target="_blank" rel="noopener noreferrer">Студія</a>
                 </li>
                 <li>
-                    <a href="./portfolio.html" target="_blank" rel="noopener noreferrer">Портфоліо</a>
+                    <a class="navigation-link" href="./portfolio.html" target="_blank" rel="noopener noreferrer">Портфоліо</a>
                 </li>
                 <li>
-                    <a href="./kontakt.html" target="_blank" rel="noopener noreferrer">Контакти</a>
+                    <a class="navigation-link" href="./kontakt.html" target="_blank" rel="noopener noreferrer">Контакти</a>
                 </li>
             </ul>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!-- MAIN -->
     <main>
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
+        <!-- Нова секція - first-section -->
+        <section class="first-section">
+            <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
             <button type="button">Замовити послугу</button>
         </section>
-        <!-- Нова секція -->
-        <section>
+        <!-- Нова секція - second-section -->
+        <section class="second-section">
             <ul>
                 <li>
-                    <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h4 class="short-title">УВАГА ДО ДЕТАЛЕЙ</h4>
+                    <p class="paragraph">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h4>ПУНКТУАЛЬНІСТЬ</h4>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h4 class="short-title">ПУНКТУАЛЬНІСТЬ</h4>
+                    <p class="paragraph">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h4>ПЛАНУВАННЯ</h4>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h4 class="short-title">ПЛАНУВАННЯ</h4>
+                    <p class="paragraph">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h4 class="short-title">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+                    <p class="paragraph">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
-        <!-- Нова секція -->
-        <section>
+        <!-- Нова секція - third-section -->
+        <section class="third-section">
             <h2>Чим ми займаємося</h2>
             <ul>
                 <li>
-                    <img src="./img/box1.jpg" alt="планшетні рішення">
+                    <img class="box1" src="./img/box1.jpg" alt="планшетні рішення">
                 </li>
                 <li>
-                    <img src="./img/img.png" alt="мобільні сайти">
+                    <img class="box2" src="./img/img.png" alt="мобільні сайти">
                 </li>
                 <li>
-                    <img src="./img/box3.png" alt="дизайнерські рішення">
+                    <img class="box3" src="./img/box3.png" alt="дизайнерські рішення">
                 </li>
             </ul>
         </section>
-        <!-- Нова секція -->
-        <section>
+        <!-- Нова секція - fourth-section -->
+        <section class="fourth-section">
             <h2>Наша команда</h2>
             <ul>
                 <li>
                     <img src="./img/img.jpg" width="500" alt="">
                     <h4>Ігор Дем'яненко</h4>
-                    <p4>Product Designer</p4>
+                    <p>Product Designer</p>
                 </li>
                 <li>
                     <img src="./img/img(1).jpg" width="500" alt="">
                     <h4>Ольга Рєпіна</h4>
-                    <p4>Frontend Developer</p4>
+                    <p>Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./img/img(2).jpg" width="500" alt="">
                     <h4>Микола Тарасов</h4>
-                    <p4>Marketing</p4>
+                    <p>Marketing</p>
                 </li>
                 <li>
                     <img src="./img/img(3).jpg" width="500" alt="">
                     <h4>Михайло Єрмаков</h4>
-                    <p4>UI Designer</p4>
+                    <p>UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <!-- Footer -->
     <footer>
-        <a href="./index.html">WebStudio</a>
-        <address>м. Київ, пр-т Лесі Українки, 26</address>
+        <a class="logo" href="./index.html">WebStudio</a>
+        <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
         <ul>
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </footer>
