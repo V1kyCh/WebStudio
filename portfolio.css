@@ -1,0 +1,108 @@
+.logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.navigation-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+
+.list > li > .link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/* main */
+
+.main-navigation a {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+/* .section2 - img */
+
+.section2 img {
+    position: absolute;
+width: 370px;
+height: 294px;
+}
+
+/* left */
+.image1 , .image4 , .image7 {
+    left: 215px; 
+}
+
+.image2 , .image5 , .image8 {
+    left: 615px;
+}
+
+.image3 , .image6 , .image9 {
+    left: 1015px;
+}
+
+/* top */
+.image1 , .image2 , .image3 {
+    top: 262px;
+}
+
+.image4 , .image5 , .image6 {
+    top: 696px;
+}
+
+.image7 , .image8 , .image9 {
+    top: 1130px;
+}
+
+.section2 h2 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.section2 p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* footer */
+
+address {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
