@@ -93,28 +93,24 @@ letter-spacing: 0.03em;
 color: #212121;
 }
                   /* box */
-.box3 {
+
+.third-section img {
     position: absolute;
 width: 370px;
 height: 294px;
-left: 215px;
 top: 1058px;
+}
+
+.box3 {
+    left: 215px;
 }
 
 .box2 {
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1058px;
+    left: 615px;
 }
 
 .box3 {
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1058px;
+    left: 1015px;
 }
 
 /* section - fourth-section */
