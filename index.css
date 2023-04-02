@@ -1,4 +1,4 @@
-/* header */
+          /* HEADER */
 .logo {
     font-family: 'Raleway';
 font-style: normal;
@@ -16,10 +16,10 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #212121;
 }
 
-.list > li > .link {
+.list-link {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -29,10 +29,12 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-/* main */
+.navigation:hover {
+    color: #2196F3;
+}
 
-/* section - first-section */
-.first-section .tittle {
+          /* MAIN */
+.first-section-tittle {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
@@ -44,7 +46,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-.first-section button {
+.first-section-button {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -57,9 +59,7 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 }
 
-/* section - second-section */
-
-.short-title {
+.second-section-title {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -70,7 +70,7 @@ text-transform: uppercase;
 color: #212121;
 }
 
-.paragraph {
+.second-section-paragraph {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -79,8 +79,6 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
 }
-
-/* section - third-section */
 
 .third-section h2 {
     font-family: 'Roboto';
@@ -92,28 +90,6 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-                  /* box */
-
-.third-section img {
-    position: absolute;
-width: 370px;
-height: 294px;
-top: 1058px;
-}
-
-.box3 {
-    left: 215px;
-}
-
-.box2 {
-    left: 615px;
-}
-
-.box3 {
-    left: 1015px;
-}
-
-/* section - fourth-section */
 
 .fourth-section h2 {
     font-family: 'Roboto';
@@ -124,14 +100,6 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-}
-
-.fourth-section img {
-    position: absolute;
-width: 270px;
-height: 260px;
-left: 215px;
-top: 1632px;
 }
 
 .fourth-section h4 {
@@ -156,9 +124,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-/* footer */
-
-address {
+.address {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -166,4 +132,14 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+}
+
+.footer-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
