@@ -12,6 +12,7 @@ a {
 
           /* HEADER */
           .header-logo {
+            font-family: 'Raleway';
             font-weight: 700;
             font-size: 26px;
             line-height: 1.19230769;
@@ -51,7 +52,11 @@ a {
 line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: #212121;
+}
+
+.main-navigation-link:hover {
+    color: #FFFFFF;
 }
 
 /* content */
@@ -85,6 +90,7 @@ color: #757575;
     }
     
     .address {
+        font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71428571;
