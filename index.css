@@ -2,7 +2,11 @@ body {
     font-family: 'Roboto';
 }
 
-.header-logo , .footer-logo {
+.header-logo {
+    font-family: 'Raleway';
+}
+
+.footer-logo {
     font-family: 'Raleway';
 }
 
