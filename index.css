@@ -12,38 +12,43 @@ a {
           
           
           /* HEADER */
-.logo {
+.header-logo {
 font-weight: 700;
+font-size: 26px;
 line-height: 1.19230769;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
 
-.logo span {
+.header-logo span {
     color: #000;
 }
 
 .navigation-link {
 font-weight: 500;
+font-size: 14px;
 line-height: 1.14285714;
 letter-spacing: 0.02em;
 color: #212121;
 }
 
-.list-link {
+.contact-link {
 font-weight: 500;
+font-size: 14px;
 line-height: 1.14285714;
 letter-spacing: 0.02em;
 color: #757575;
 }
 
 .navigation-link:hover , 
-.list-link:hover {
+.contact-link:hover {
     color: #2196F3;
 }
           /* MAIN */
-.first-section-tittle {
+    /* секція герой */
+.hero-tittle {
 font-weight: 900;
+font-size: 44px;
 line-height: 1.36363636;
 text-align: center;
 letter-spacing: 0.06em;
@@ -51,8 +56,9 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-.first-section-button {
+.hero-button {
 font-weight: 700;
+font-size: 16px;
 line-height: 1,875;
 display: flex;
 align-items: center;
@@ -61,8 +67,11 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 }
 
+/* second-section */
+
 .second-section-title {
 font-weight: 700;
+font-size: 14px;
 line-height: 1.14285714;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -71,37 +80,46 @@ color: #212121;
 
 .second-section-paragraph {
 font-weight: 400;
+font-size: 14px;
 line-height: 1.71428571;
 letter-spacing: 0.03em;
 color: #757575;
 }
 
-.third-section h2 {
+/* work */
+
+.work-title {
 font-weight: 700;
+font-size: 36px;
 line-height: 1.16666667;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
 
-.fourth-section h2 {
+/* team */
+
+.team-title {
 font-weight: 700;
+font-size: 36px;
 line-height: 1.16666667;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
 
-.fourth-section h4 {
+.team-subtitle {
 font-weight: 500;
+font-size: 16px;
 line-height: 1.1875;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
 
-.fourth-section p {
+.team-text {
 font-weight: 400;
+font-size: 16px;
 line-height: 1.1875;
 text-align: center;
 letter-spacing: 0.03em;
@@ -112,6 +130,7 @@ color: #757575;
 
 .footer-logo {
 font-weight: 700;
+font-size: 26px;
 line-height: 1.19230769;
 letter-spacing: 0.03em;
 color: #2196F3;
@@ -123,6 +142,7 @@ color: #2196F3;
 
 .address {
 font-weight: 400;
+font-size: 14px;
 line-height: 1.71428571;
 letter-spacing: 0.03em;
 color: #FFFFFF;
@@ -130,6 +150,7 @@ color: #FFFFFF;
 
 .footer-link {
 font-weight: 400;
+font-size: 14px;
 line-height: 1.71428571;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);

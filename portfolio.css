@@ -11,34 +11,36 @@ a {
 }
 
           /* HEADER */
-.logo {
-    font-weight: 700;
-line-height: 1.19230769;
-letter-spacing: 0.03em;
-color: #2196F3;
-}
+          .header-logo {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19230769;
+            letter-spacing: 0.03em;
+            color: #2196F3;
+            }
             
-.logo span {
-    color: #000;           
-}
+            .header-logo span {
+                color: #000;
+            }
             
+            .navigation-link {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14285714;
+            letter-spacing: 0.02em;
+            color: #212121;
+            }
             
-.navigation-link {
-    font-weight: 500;
-line-height: 1.14285714;
-letter-spacing: 0.02em;
-color: #212121;
-}
+            .contact-link {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14285714;
+            letter-spacing: 0.02em;
+            color: #757575;
+            }
             
-.list-link {
-    font-weight: 500;
-line-height: 1.14285714;
-letter-spacing: 0.02em;
-color: #757575;
-}
-
 .navigation-link:hover , 
-.list-link:hover {
+.contact-link:hover {
     color: #2196F3;
 }
 
@@ -52,14 +54,16 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
-.section2 h2 {
+/* content */
+
+.content-subtitle {
     font-weight: 700;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 
-.section2 p {
+.content-text {
     font-weight: 400;
 line-height: 1.875;
 letter-spacing: 0.03em;
@@ -70,28 +74,31 @@ color: #757575;
 
 .footer-logo {
     font-weight: 700;
-line-height: 1.19230769;
-letter-spacing: 0.03em;
-color: #2196F3;
-}
+    font-size: 26px;
+    line-height: 1.19230769;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    }
     
-.footer-logo span {
+    .footer-logo span {
+        color: #FFFFFF;
+    }
+    
+    .address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71428571;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
-}
+    }
     
-.address {
+    .footer-link {
     font-weight: 400;
-line-height: 1.85714286;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-}
-    
-.footer-link {
-    font-weight: 400;
-line-height: 1.85714286;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-}
+    font-size: 14px;
+    line-height: 1.71428571;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
 
 
 
