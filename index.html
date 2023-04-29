@@ -9,12 +9,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="./styles/reset.css">
+
 <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
     <!-- Секція HEADER -->
     <header class="header">
+        <div class="container">
         <h2 class="header-logo">Web<span>Studio</span></h2>
         <nav class="navigation">
             <ul class="navigation-item">
@@ -37,16 +43,20 @@
                 </li>
             </ul>
         </nav>
+    </div>
     </header>
     <!-- MAIN -->
     <main class="main">
         <!-- cекція герой -->
         <section class="hero">
-            <h1 class="hero-tittle">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-button" type="button">Замовити послугу</button>
+            <div class="container">
+                <h1 class="hero-tittle">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero-button" type="button">Замовити послугу</button>
+            </div>
         </section>
         <!-- Нова секція - second-section -->
         <section class="second-section">
+            <div class="container">
             <ul class="second-section-item">
                 <li class="second-section-list">
                     <h2 class="second-section-title">УВАГА ДО ДЕТАЛЕЙ</h2>
@@ -65,9 +75,11 @@
                     <p class="second-section-paragraph">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+        </div>
         </section>
         <!-- work -->
         <section class="work">
+            <div class="container">
             <h2 class="work-title">Чим ми займаємося</h2>
             <ul class="work-item">
                 <li class="work-list">
@@ -80,9 +92,11 @@
                     <img class="work-img3" src="./imgIndex/img3.png" alt="дизайнерські рішення">
                 </li>
             </ul>
+        </div>
         </section>
         <!-- Нова секція - team -->
         <section class="team">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-item">
                 <li class="team-list">
@@ -106,10 +120,12 @@
                     <p class="team-text">UI Designer</p>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
     <!-- Footer -->
     <footer>
+        <div class="container">
         <a class="footer-logo" href="./index.html">Web<span>Studio</span></a>
         <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
         <ul>
@@ -120,6 +136,7 @@
                 <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+    </div>
     </footer>
 </body>
 
