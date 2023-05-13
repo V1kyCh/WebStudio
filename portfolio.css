@@ -2,13 +2,27 @@ body {
     font-family: 'Roboto';
 }
 
-.logo , .footer-logo {
+.header-logo {
+    font-family: 'Raleway';
+} 
+
+.footer-logo {
     font-family: 'Raleway';
 }
 
 a {
     text-decoration: none;
 }
+
+.container {
+    width: 1230px;
+padding-left: 15px;
+padding-right: 15px;
+outline: solid red;
+margin-left: auto;
+margin-right: auto;
+}
+
 
           /* HEADER */
           .header-logo {
