@@ -37,18 +37,17 @@ section {
 .navigation-list {
     display: flex;
     gap: 50px;
-    padding-left: 93px;
-    padding-right: 344px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-left: 93px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .navigation-contacts {
     display: flex;
     margin-left: auto;
     gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .header-logo {
@@ -94,7 +93,7 @@ color: #757575;
 .hero {
     background-color: #2F303A;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 .hero-tittle {
@@ -133,11 +132,12 @@ margin-top: 30px;
 
 .second-section-list {
     display: flex;
-    gap: 56px;
+    gap: 30px;
 }
 
 .second-section {
-    padding: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .second-section-title {
@@ -147,6 +147,8 @@ line-height: 1.14285714;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
+
+margin-bottom: 10px;
 }
 
 .second-section-paragraph {
@@ -193,8 +195,12 @@ padding-top: 94px;
 .team-list {
     display: flex;
     gap: 30px;
-    padding-top: 50px;
-    padding-bottom: 94px;
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
+.team-item {
+    background-color: #fff;
 }
 
 .team-image {
@@ -217,6 +223,8 @@ line-height: 1.1875;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+
+margin-top: 30px;
 }
 
 .team-text {
@@ -226,6 +234,9 @@ line-height: 1.1875;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
+
+margin-top: 10px;
+padding-bottom: 30px;
 }
 
                               /* FOOTER */
@@ -255,7 +266,7 @@ font-size: 14px;
 line-height: 1.71428571;
 letter-spacing: 0.03em;
 color: #FFFFFF;
-padding-top: 20px;
+margin-top: 20px;
 }
 
 .footer-link {
@@ -264,5 +275,5 @@ font-size: 14px;
 line-height: 1.71428571;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-padding-top: 9px;
+margin-top: 9px;
 }
