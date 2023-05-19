@@ -173,6 +173,10 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
+.work-img {
+    padding-top: 50px;
+}
+
 .work-list {
     display: flex;
     gap: 30px;
