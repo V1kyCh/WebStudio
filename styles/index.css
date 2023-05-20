@@ -18,14 +18,14 @@ a {
     width: 1230px;
 padding-left: 15px;
 padding-right: 15px;
-outline: solid red;
+/* outline: solid red; */
 margin-left: auto;
 margin-right: auto;
 }
 
-section {
+/* section {
     outline:solid blue ;
-}
+} */
           
           
                                  /* HEADER */
@@ -109,23 +109,23 @@ padding-bottom: 280px; */
 }
 
 .hero-button {
-font-weight: 700;
-font-size: 16px;
-line-height: 1,875;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color: #2196F3;
+    display: flex;
 border-radius: 4px;
+background-color: #2196F3;
+color: #FFFFFF;
+font-weight: 700;
+line-height: 1,875;
+letter-spacing: 0.06em;
+/*
+
 width: 216px;
 height: 50px;
 left: 692px;
-top: 430px;
+top: 430px; */
 margin-left: auto;
 margin-right: auto;
 margin-top: 30px;
+padding: 10px 32px;
 }
 
 /* second-section */
