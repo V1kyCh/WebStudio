@@ -180,13 +180,13 @@ color: #212121;
     background-color: #F5F4FA;
 height: 648px;
 padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .team-list {
     display: flex;
     gap: 30px;
-    padding-top: 50px;
-    padding-bottom: 94px;
+    margin-top: 50px;
 }
 
 .team-item {
