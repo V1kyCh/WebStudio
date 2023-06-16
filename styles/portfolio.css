@@ -134,17 +134,11 @@ border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
-
-
-    flex-basis: calc((100% - 90px) / 3);
-
-
-
 }
 
 .content-item {
     outline: solid #EEEEEE;
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .content-subtitle {
