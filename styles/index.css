@@ -91,7 +91,7 @@ color: #757575;
 /* секція герой */
 
 .hero {
-    background-color: #2F303A;
+    background-image: url(../imgIndex/herobc.png);
     padding-top: 200px;
     padding-bottom: 200px;
 }
