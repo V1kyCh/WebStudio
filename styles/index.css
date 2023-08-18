@@ -91,7 +91,7 @@ color: #757575;
 /* секція герой */
 
 .hero {
-    background-image: url(../imgIndex/herobc.png);
+    background-image: url(../imgIndex/herobc.webp);
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -134,7 +134,7 @@ padding: 10px 32px;
     width: 100%;
     height: 120px;
     background-color: #F5F4FA;
-    background-image: url(../imgIndex/ssi/antenna1.png);
+    background-image: url(../imgIndex/ssi/antenna1.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -146,7 +146,7 @@ padding: 10px 32px;
     width: 100%;
     height: 120px;
     background-color: #F5F4FA;
-    background-image: url(../imgIndex/ssi/clock2.png);
+    background-image: url(../imgIndex/ssi/clock2.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -158,7 +158,7 @@ padding: 10px 32px;
     width: 100%;
     height: 120px;
     background-color: #F5F4FA;
-    background-image: url(../imgIndex/ssi/diagram3.png);
+    background-image: url(../imgIndex/ssi/diagram3.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -170,7 +170,7 @@ padding: 10px 32px;
     width: 100%;
     height: 120px;
     background-color: #F5F4FA;
-    background-image: url(../imgIndex/ssi/astronaut4.png);
+    background-image: url(../imgIndex/ssi/astronaut4.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
