@@ -95,6 +95,11 @@ margin-right: auto;
     justify-content: center;
 }
 
+.main-navigation-item {
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+
 .section-navigation {
     padding-top: 94px;
     padding-bottom: 50px;
@@ -139,6 +144,10 @@ border-radius: 4px;
 .content-item {
     outline: solid #EEEEEE;
     flex-basis: calc((100% - 60px) / 3);
+}
+
+.content-item:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .content-subtitle {
