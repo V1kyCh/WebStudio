@@ -73,7 +73,7 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
-.contact-link {
+.contact-link span {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14285714;
@@ -81,9 +81,31 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-.navigation-link:hover , 
+.contact-link {
+    display: flex;
+    gap: 10px;
+}
+
 .contact-link:hover {
     color: #2196F3;
+    fill: #2196F3;
+}
+
+.navigation-link:hover , 
+.contact-link span:hover {
+    color: #2196F3;
+} 
+
+.svg-icon-mail {
+    width: 16px;
+    height: 12px;
+fill: #757575;
+}
+
+.svg-icon-smartphone {
+    width: 10px;
+height: 16px;
+fill: #757575;
 }
 
                              /* MAIN */
@@ -91,7 +113,7 @@ color: #757575;
 /* секція герой */
 
 .hero {
-    background-image: url(../imgIndex/herobc.webp);
+    background-image: url(../img/imgIndex/herobc.webp);
     padding-top: 200px;
     padding-bottom: 200px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -136,7 +158,7 @@ padding: 10px 32px;
     width: 100%;
     height: 120px;
     background-color: #F5F4FA;
-    background-image: url(../imgIndex/ssi/antenna1.webp);
+    background-image: url(../img/imgIndex/ssi/antenna1.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -148,7 +170,7 @@ padding: 10px 32px;
     width: 100%;
     height: 120px;
     background-color: #F5F4FA;
-    background-image: url(../imgIndex/ssi/clock2.webp);
+    background-image: url(../img/imgIndex/ssi/clock2.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -160,7 +182,7 @@ padding: 10px 32px;
     width: 100%;
     height: 120px;
     background-color: #F5F4FA;
-    background-image: url(../imgIndex/ssi/diagram3.webp);
+    background-image: url(../img/imgIndex/ssi/diagram3.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -172,7 +194,7 @@ padding: 10px 32px;
     width: 100%;
     height: 120px;
     background-color: #F5F4FA;
-    background-image: url(../imgIndex/ssi/astronaut4.webp);
+    background-image: url(../img/imgIndex/ssi/astronaut4.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
