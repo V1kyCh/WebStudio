@@ -43,14 +43,6 @@ margin-right: auto;
             margin-bottom: 32px;
         }
         
-        .navigation-contacts {
-            display: flex;
-            margin-left: auto;
-            gap: 50px;
-            padding-top: 32px;
-            padding-bottom: 32px;
-        }
-        
         .header-logo {
             font-family: 'Raleway';
         font-weight: 700;
@@ -67,6 +59,32 @@ margin-right: auto;
         }
         
         .navigation-link {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14285714;
+            letter-spacing: 0.02em;
+            color: #212121;
+            }
+            
+            .navigation-link:hover {
+                color: #2196F3;
+                transition: 400ms;
+            } 
+        
+        .navigation-contacts {
+            display: flex;
+            margin-left: auto;
+            gap: 50px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+        
+        .navigation-contact:hover .svg-icon-mail {
+            fill: #2196F3;
+            transition: 400ms;
+        }
+        
+        .navigation-link {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14285714;
@@ -74,7 +92,12 @@ margin-right: auto;
         color: #212121;
         }
         
-        .contact-link {
+        .navigation-link:hover {
+            color: #2196F3;
+            transition: 400ms;
+        } 
+        
+        .contact-text {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14285714;
@@ -82,10 +105,38 @@ margin-right: auto;
         color: #757575;
         }
         
-        .navigation-link:hover , 
-        .contact-link:hover {
+        .navigation-contact:hover .contact-text {
             color: #2196F3;
-        }      
+            transition: 400ms;
+        }
+        
+        .contact-link {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .svg-icon-mail {
+            width: 16px;
+            height: 12px;
+        fill: #757575;
+        }
+        
+        .navigation-contact:hover .svg-icon-mail {
+            fill: #2196F3;
+            transition: 400ms;
+        }
+        
+        .svg-icon-smartphone {
+        width: 10px;
+        height: 16px;
+        fill: #757575;
+        }
+        
+        .navigation-contact:hover .svg-icon-smartphone {
+            fill: #2196F3;
+            transition: 400ms;
+        }
+        
 
                                   /* MAIN */
 
@@ -172,10 +223,15 @@ padding-bottom: 20px;
 
 .footer {
 background-color: #2F303A;
-height: 252px;
 padding-top: 60px;
+padding-bottom: 60px;
 }
-                            
+                    
+.footer-container {
+    display: flex;
+gap: 70px;
+}
+                    
 .footer-logo {
 font-weight: 700;
 font-size: 26px;
@@ -183,13 +239,13 @@ line-height: 1.19230769;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
-                            
+                    
 .footer-logo span {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-                            
+                    
 .footer-address {
-font-style: normal;
+    font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71428571;
@@ -197,16 +253,62 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 margin-top: 20px;
 }
-                            
+                    
 .footer-link {
-font-weight: 400;
+    font-weight: 400;
 font-size: 14px;
 line-height: 1.71428571;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 margin-top: 9px;
 }
-
-.footer-list {
-    padding-bottom: 60px;
+                    
+.footer-box2 {
+    padding-top: 6px;
 }
+                    
+.footer-text {
+    color: #FFF;
+font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+                    
+.footer-socials {
+    display: flex;
+gap: 10px;
+margin-top: 20px;
+}
+                    
+.footer-icons {
+display: flex;
+background-color: rgba(255, 255, 255, 0.10);
+align-items: center;
+padding: 12px;
+border-radius: 50%;
+}
+                    
+.footer-icons:hover {
+    background-color: #2196F3;
+transition: 800ms;
+}
+                    
+.footer-icon {
+    width: 20px;
+height: 20px;
+fill: #FFFFFF;
+}
+                    
+.footer-icons:hover .footer-icon {
+    fill: #FFFFFF;
+transition: 800ms;
+}
+                    
+                    
+                    
+                    
+                    
