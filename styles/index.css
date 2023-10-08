@@ -72,11 +72,6 @@ padding-bottom: 25px;
     padding-bottom: 32px;
 }
 
-.navigation-contact:hover .svg-icon-mail {
-    fill: #2196F3;
-    transition: 400ms;
-}
-
 .navigation-link {
 font-weight: 500;
 font-size: 14px;
@@ -88,6 +83,10 @@ color: #212121;
 .navigation-link:hover {
     color: #2196F3;
     transition: 400ms;
+} 
+
+.navigation-link:focus {
+    color: #2196F3;
 } 
 
 .contact-text {
@@ -106,6 +105,7 @@ color: #757575;
 .contact-link {
     display: flex;
     gap: 10px;
+align-items: center;
 }
 
 .svg-icon-mail {
@@ -346,7 +346,15 @@ margin-top: 10px;
     transition: 800ms;
 }
 
+.team-icons:focus {
+    background-color: #2196F3;
+}
+
 .team-icons:hover .team-icon {
+    fill: #fff;
+}
+
+.team-icons:focus .team-icon {
     fill: #fff;
 }
 
@@ -480,6 +488,10 @@ text-transform: uppercase;
     transition: 800ms;
 }
 
+.footer-icons:focus {
+    background-color: #2196F3;
+}
+
 .footer-icon {
     width: 20px;
 height: 20px;
@@ -491,6 +503,7 @@ fill: #FFFFFF;
     transition: 800ms;
 }
 
-
-
-
+.footer-icons:focus .footer-icon {
+    fill: #FFFFFF;
+    transition: 800ms;
+}

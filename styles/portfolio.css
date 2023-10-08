@@ -14,15 +14,10 @@ a {
     text-decoration: none;
 }
 
-/* section {
-    outline: solid blue;
-} */
-
 .container {
     width: 1230px;
 padding-left: 15px;
 padding-right: 15px;
-/* outline: solid red; */
 margin-left: auto;
 margin-right: auto;
 }
@@ -30,112 +25,131 @@ margin-right: auto;
 
           /* HEADER */
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
 
-          .header-navigation {
-            display: flex;
-        }
+.header-navigation {
+    display: flex;
+}
         
-        .navigation-list {
-            display: flex;
-            gap: 50px;
-            margin-left: 93px;
-            margin-top: 32px;
-            margin-bottom: 32px;
-        }
+.navigation-list {
+    display: flex;
+gap: 50px;
+margin-left: 93px;
+margin-top: 32px;
+margin-bottom: 32px;
+}
         
-        .header-logo {
-            font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19230769;
-        letter-spacing: 0.03em;
-        color: #2196F3;
-        padding-top: 24px;
-        padding-bottom: 25px;
-        }
+.header-logo {
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19230769;
+letter-spacing: 0.03em;
+color: #2196F3;
+padding-top: 24px;
+padding-bottom: 25px;
+}
         
-        .header-logo span {
-            color: #000;
-        }
+.header-logo span {
+    color: #000;
+}
         
-        .navigation-link {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.14285714;
-            letter-spacing: 0.02em;
-            color: #212121;
-            }
+.navigation-link {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14285714;
+letter-spacing: 0.02em;
+color: #212121;
+}
             
-            .navigation-link:hover {
-                color: #2196F3;
-                transition: 400ms;
-            } 
+.navigation-link:hover {
+    color: #2196F3;
+transition: 400ms;
+} 
+
+.navigation-link:focus {
+    color: #2196F3;
+}
         
-        .navigation-contacts {
-            display: flex;
-            margin-left: auto;
-            gap: 50px;
-            padding-top: 32px;
-            padding-bottom: 32px;
-        }
+.navigation-contacts {
+    display: flex;
+margin-left: auto;
+gap: 50px;
+padding-top: 32px;
+padding-bottom: 32px;
+}
         
-        .navigation-contact:hover .svg-icon-mail {
-            fill: #2196F3;
-            transition: 400ms;
-        }
+.navigation-link {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14285714;
+letter-spacing: 0.02em;
+color: #212121;
+}
         
-        .navigation-link {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14285714;
-        letter-spacing: 0.02em;
-        color: #212121;
-        }
+.navigation-link:hover {
+    color: #2196F3;
+transition: 400ms;
+} 
+
+.navigation-link:focus {
+    color: #2196F3;
+} 
         
-        .navigation-link:hover {
-            color: #2196F3;
-            transition: 400ms;
-        } 
+.contact-text {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14285714;
+letter-spacing: 0.02em;
+color: #757575;
+}
         
-        .contact-text {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14285714;
-        letter-spacing: 0.02em;
-        color: #757575;
-        }
+.navigation-contact:hover .contact-text {
+    color: #2196F3;
+transition: 400ms;
+}
+
+.navigation-contact:focus .contact-text {
+    color: #2196F3;
+}
         
-        .navigation-contact:hover .contact-text {
-            color: #2196F3;
-            transition: 400ms;
-        }
+.contact-link {
+    display: flex;
+gap: 10px;
+align-items: center;
+}
         
-        .contact-link {
-            display: flex;
-            gap: 10px;
-        }
+.svg-icon-mail {
+    width: 16px;
+height: 12px;
+fill: #757575;
+}
         
-        .svg-icon-mail {
-            width: 16px;
-            height: 12px;
-        fill: #757575;
-        }
+.navigation-contact:hover .svg-icon-mail {
+    fill: #2196F3;
+transition: 400ms;
+}
+
+.navigation-contact:focus .svg-icon-mail {
+    fill: #2196F3;
+}
         
-        .navigation-contact:hover .svg-icon-mail {
-            fill: #2196F3;
-            transition: 400ms;
-        }
+.svg-icon-smartphone {
+    width: 10px;
+height: 16px;
+fill: #757575;
+}
         
-        .svg-icon-smartphone {
-        width: 10px;
-        height: 16px;
-        fill: #757575;
-        }
-        
-        .navigation-contact:hover .svg-icon-smartphone {
-            fill: #2196F3;
-            transition: 400ms;
-        }
+.navigation-contact:hover .svg-icon-smartphone {
+    fill: #2196F3;
+transition: 400ms;
+}
+
+.navigation-contact:focus .svg-icon-smartphone {
+    fill: #2196F3;
+}
         
 
                                   /* MAIN */
@@ -148,7 +162,7 @@ margin-right: auto;
 
 .main-navigation-item {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
+    border-radius: 4px;
 }
 
 .section-navigation {
@@ -169,6 +183,12 @@ border-radius: 4px;
 }
 
 .main-navigation-link:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.main-navigation-link:focus {
     color: #FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -195,6 +215,7 @@ border-radius: 4px;
 .content-item {
     outline: solid #EEEEEE;
     flex-basis: calc((100% - 60px) / 3);
+    border-radius: 4px;
 }
 
 .content-item:hover {
@@ -296,7 +317,11 @@ border-radius: 50%;
     background-color: #2196F3;
 transition: 800ms;
 }
-                    
+                   
+.footer-icons:focus {
+    background-color: #2196F3;
+}
+
 .footer-icon {
     width: 20px;
 height: 20px;
@@ -306,6 +331,10 @@ fill: #FFFFFF;
 .footer-icons:hover .footer-icon {
     fill: #FFFFFF;
 transition: 800ms;
+}
+
+.footer-icons:hover .footer-icon {
+    fill: #FFFFFF;
 }
                     
                     
