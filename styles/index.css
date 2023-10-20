@@ -269,6 +269,34 @@ color: #212121;
     margin-top: 50px;
 }
 
+.work-item {
+    position: relative;
+}
+
+.work-box {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background-color: #2F303ACC;
+    left: 0;
+    bottom: 0;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-text {
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
 /* team */
 
 .team {
@@ -499,11 +527,6 @@ fill: #FFFFFF;
 }
 
 .footer-icons:hover .footer-icon {
-    fill: #FFFFFF;
-    transition: 800ms;
-}
-
-.footer-icons:focus .footer-icon {
     fill: #FFFFFF;
     transition: 800ms;
 }
