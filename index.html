@@ -360,6 +360,16 @@
                     </li>
                 </ul>
             </div>
+            <form class="footer-form">
+                <p class="footer-subscription">Підпишіться на розсилку</p>
+                <input class="footer-input" type="text" placeholder="E-mail">
+                <button class="footer-button">
+                    <span>Підписатися</span>
+                    <svg class="footer-svg" width="24px" height="24px">
+                        <use href="./img/svg/symbol-defs.svg#icon-telegram"></use>
+                    </svg>
+                </button>
+            </form>
         </div>
     </footer>
 
@@ -373,22 +383,22 @@
                     <li class="modal-item">
                         <label class="modal-name-label modal-label" for="name">Ім'я</label>
                         <input class="modal-name-input modal-input" id="name" type="text">
-                        <svg class="modal-svg">
-                            <use href="./img/svg/symbol-defs-modal.svg#icon-modal-people"></use>
+                        <svg class="modal-svg modal-people-svg">
+                            <use href="./img/svg/symbol-defs.svg#icon-modal-people"></use>
                         </svg>
                     </li>
                     <li class="modal-item">
                         <label class="modal-phone-label modal-label" for="phone">Телефон</label>
                         <input class="modal-phone-input modal-input" id="phone" type="text">
                         <svg class="modal-svg">
-                            <use href="./img/svg/symbol-defs-modal.svg#icon-modal-phone"></use>
+                            <use href="./img/svg/symbol-defs.svg#icon-modal-phone"></use>
                         </svg>
                     </li>
                     <li class="modal-item">
                         <label class="modal-mail-label modal-label" for="mail">Пошта</label>
                         <input class="modal-mail-input modal-input" id="mail" type="text">
                         <svg class="modal-svg">
-                            <use href="./img/svg/symbol-defs-modal.svg#icon-modal-mail"></use>
+                            <use href="./img/svg/symbol-defs.svg#icon-modal-mail"></use>
                         </svg>
                     </li>
                     <li class="modal-item">
@@ -403,13 +413,18 @@
                 </div>
                 <button data-modal-close class="modal-close">
                     <svg class="modal-close-svg">
-                        <use href="./img/svg/symbol-defs-modal.svg#icon-modal-close"></use>
+                        <use href="./img/svg/symbol-defs.svg#icon-modal-close"></use>
                     </svg>
                 </button>
                 <button class="modal-button" type="submit">Відправити</button>
             </form>
         </div>
     </div>
+
+    <!-- footer-modal -->
+
+
+
     <script src="./js/modal.js"></script>
 </body>
 </html>
