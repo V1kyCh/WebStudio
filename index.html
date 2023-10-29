@@ -25,7 +25,9 @@
             <a href="./index.html" class="header-logo">Web<span>Studio</span></a>
             <ul class="navigation-list">
                 <li class="navigation-item">
-                    <a class="navigation-link" href="./index.html" target="_blank" rel="noopener noreferrer">Студія</a>
+                    <div class="header-box">
+                    <a class="navigation-link header-first-page" href="./index.html" target="_blank" rel="noopener noreferrer">Студія</a>
+                </div>
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link" href="./portfolio.html" target="_blank" rel="noopener noreferrer">Портфоліо</a>
@@ -383,21 +385,21 @@
                 <ul class="modal-list">
                     <li class="modal-item">
                         <label class="modal-name-label modal-label" for="name">Ім'я</label>
-                        <input class="modal-name-input modal-input" id="name" type="text">
+                        <input required class="modal-name-input modal-input" id="name" type="text">
                         <svg class="modal-svg modal-people-svg">
                             <use href="./img/svg/symbol-defs.svg#icon-modal-people"></use>
                         </svg>
                     </li>
                     <li class="modal-item">
                         <label class="modal-phone-label modal-label" for="phone">Телефон</label>
-                        <input class="modal-phone-input modal-input" id="phone" type="text">
+                        <input required class="modal-phone-input modal-input" id="phone" type="number">
                         <svg class="modal-svg">
                             <use href="./img/svg/symbol-defs.svg#icon-modal-phone"></use>
                         </svg>
                     </li>
                     <li class="modal-item">
                         <label class="modal-mail-label modal-label" for="mail">Пошта</label>
-                        <input class="modal-mail-input modal-input" id="mail" type="text">
+                        <input required class="modal-mail-input modal-input" id="mail" type="email">
                         <svg class="modal-svg">
                             <use href="./img/svg/symbol-defs.svg#icon-modal-mail"></use>
                         </svg>
@@ -408,7 +410,7 @@
                     </li>
                 </ul>
                 <div class="modal-box">
-                    <input class="modal-checkbox" id="checkbox" type="checkbox">
+                    <input required class="modal-checkbox" id="checkbox" type="checkbox">
                     <label class="modal-checkbox-label" for="checkbox">Погоджуюся з розсилкою та приймаю</label>
                     <a class="checkbox-link" href="#">Умови договору</a>
                 </div>
@@ -421,10 +423,6 @@
             </form>
         </div>
     </div>
-
-    <!-- footer-modal -->
-
-
 
     <script src="./js/modal.js"></script>
 </body>
