@@ -136,9 +136,21 @@ fill: #757575;
 
 .hero {
     background-image: url(../img/imgIndex/herobc.webp);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding-top: 200px;
+padding-bottom: 200px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+position: relative;
+height: 600px;
+}
+
+.hero-overlay {
+    position: absolute;
+background: rgba(47, 48, 58, 0.40);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 3;
 }
 
 .hero-tittle {
@@ -149,6 +161,11 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+position: absolute;
+top: 200px;
+left: 50%;
+transform: translate(-50%);
+z-index: 30;
 }
 
 .hero-button {
@@ -161,10 +178,13 @@ line-height: 1.875;
 letter-spacing: 0.06em;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
-margin-left: auto;
-margin-right: auto;
-margin-top: 30px;
 padding: 10px 32px;
+
+position: absolute;
+top: 350px;
+left: 50%;
+transform: translate(-50%);
+z-index: 30;
 }
 
 /* second-section */
