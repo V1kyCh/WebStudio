@@ -546,6 +546,10 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 
+.footer-form {
+    padding-top: 6px;
+}
+
 .footer-subscription {
     color: #FFF;
 font-size: 14px;
