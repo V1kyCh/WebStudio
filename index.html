@@ -25,15 +25,13 @@
             <a href="./index.html" class="header-logo">Web<span>Studio</span></a>
             <ul class="navigation-list">
                 <li class="navigation-item">
-                    <div class="header-box">
-                    <a class="navigation-link header-first-page" href="./index.html" target="_blank" rel="noopener noreferrer">Студія</a>
-                </div>
+                    <a class="navigation-link navigation-first-page" href="./index.html" target="_parent" rel="noopener noreferrer">Студія</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="./portfolio.html" target="_blank" rel="noopener noreferrer">Портфоліо</a>
+                    <a class="navigation-link" href="./portfolio.html" target="_parent" rel="noopener noreferrer">Портфоліо</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="./kontakt.html" target="_blank" rel="noopener noreferrer">Контакти</a>
+                    <a class="navigation-link" href="./kontakt.html" target="_parent" rel="noopener noreferrer">Контакти</a>
                 </li>
             </ul>
             <ul class="navigation-contacts">
@@ -365,8 +363,8 @@
             </div>
             <form class="footer-form">
                 <p class="footer-subscription">Підпишіться на розсилку</p>
-                <input class="footer-input" type="text" placeholder="E-mail">
-                <button class="footer-button">
+                <input required class="footer-input" type="email" placeholder="E-mail">
+                <button class="footer-button" type="submit">
                     <span>Підписатися</span>
                     <svg class="footer-svg" width="24px" height="24px">
                         <use href="./img/svg/symbol-defs.svg#icon-telegram"></use>
@@ -385,24 +383,30 @@
                 <ul class="modal-list">
                     <li class="modal-item">
                         <label class="modal-name-label modal-label" for="name">Ім'я</label>
-                        <input required class="modal-name-input modal-input" id="name" type="text">
-                        <svg class="modal-svg modal-people-svg">
-                            <use href="./img/svg/symbol-defs.svg#icon-modal-people"></use>
-                        </svg>
+                        <div class="modal-holder">
+                            <input required class="modal-name-input modal-input" id="name" type="text">
+                            <svg class="modal-svg modal-people-svg">
+                                <use href="./img/svg/symbol-defs.svg#icon-modal-people"></use>
+                            </svg>
+                       </div>
                     </li>
                     <li class="modal-item">
                         <label class="modal-phone-label modal-label" for="phone">Телефон</label>
+                        <div class="modal-holder">
                         <input required class="modal-phone-input modal-input" id="phone" type="number">
-                        <svg class="modal-svg">
+                        <svg class="modal-svg modal-phone-svg">
                             <use href="./img/svg/symbol-defs.svg#icon-modal-phone"></use>
                         </svg>
+                    </div>
                     </li>
                     <li class="modal-item">
                         <label class="modal-mail-label modal-label" for="mail">Пошта</label>
-                        <input required class="modal-mail-input modal-input" id="mail" type="email">
-                        <svg class="modal-svg">
-                            <use href="./img/svg/symbol-defs.svg#icon-modal-mail"></use>
-                        </svg>
+                        <div class="modal-holder">
+                            <input required class="modal-mail-input modal-input" id="mail" type="email">
+                            <svg class="modal-svg modal-mail-svg">
+                                <use href="./img/svg/symbol-defs.svg#icon-modal-mail"></use>
+                            </svg>
+                        </div>
                     </li>
                     <li class="modal-item">
                         <label class="modal-comment-label modal-label" for="comment">Коментар</label>
@@ -410,8 +414,15 @@
                     </li>
                 </ul>
                 <div class="modal-box">
-                    <input required class="modal-checkbox" id="checkbox" type="checkbox">
-                    <label class="modal-checkbox-label" for="checkbox">Погоджуюся з розсилкою та приймаю</label>
+                    <input required class="modal-checkbox-input" id="checkbox" type="checkbox">
+                    <!-- <span class="modal-custom">
+                        <svg class="modal-check" width="13" height="10">
+                            <use href="./img/svg/symbol-defs.svg#icon-checkbox"></use>
+                        </svg>
+                    </span> -->
+                    <label class="modal-checkbox-label" for="checkbox">
+                        <span class="modal-checkbox-text">Погоджуюся з розсилкою та приймаю</span>
+                    </label>
                     <a class="checkbox-link" href="#">Умови договору</a>
                 </div>
                 <button data-modal-close class="modal-close">
