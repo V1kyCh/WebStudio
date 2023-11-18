@@ -72,6 +72,28 @@ transition: 400ms;
 .navigation-link:focus {
     color: #2196F3;
 }
+
+.navigation-second-page {
+    display: block;
+position: relative;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14285714;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+
+.navigation-second-page::after {
+    content: '';
+display: block;
+position: absolute;
+top: 47px;
+left: 0;
+width: 100%;
+height: 4px;
+border-radius: 2px;
+background-color: #2196F3;
+}
         
 .navigation-contacts {
     display: flex;
