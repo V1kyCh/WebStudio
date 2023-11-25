@@ -65,6 +65,11 @@ a {
     background-color: #2196f3;
 }
 
+.navigation-link:focus + .navigation-box {
+    transform: translatey(0);
+    background-color: #2196f3;
+}
+
 .header-logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -159,11 +164,11 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-contact:hover .contact-text {
+.contact-link:hover .contact-text {
   color: #2196f3;
 }
 
-.navigation-contact:focus .contact-text {
+.contact-link:focus .contact-text {
   color: #2196f3;
 }
 
@@ -171,6 +176,10 @@ a {
   display: flex;
   gap: 10px;
   align-items: center;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-icon-mail {
@@ -183,11 +192,11 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-contact:hover .svg-icon-mail {
+.contact-link:hover .svg-icon-mail {
   fill: #2196f3;
 }
 
-.navigation-contact:focus .svg-icon-mail {
+.contact-link:focus .svg-icon-mail {
   fill: #2196f3;
 }
 

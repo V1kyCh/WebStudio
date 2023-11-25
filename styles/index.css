@@ -59,6 +59,11 @@ a {
     background-color: #2196f3;
 }
 
+.navigation-link:focus + .navigation-box {
+    transform: translatey(0);
+    background-color: #2196f3;
+}
+
 .navigation-contacts {
   height: 31px;
   align-items: center;
