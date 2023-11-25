@@ -2,20 +2,8 @@ body {
   font-family: "Roboto";
 }
 
-.header-logo {
-  font-family: "Raleway";
-}
-
-.footer-logo {
-  font-family: "Raleway";
-}
-
-a {
-  text-decoration: none;
-}
-
 .container {
-  width: 1230px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -29,9 +17,16 @@ a {
   padding-bottom: 25px;
 }
 
+.header-logo {
+  font-family: "Raleway";
+}
+
 .navigation-list {
   height: 31px;
   align-items: center;
+  display: flex;
+  gap: 50px;
+  margin-left: 93px;
 }
 
 .navigation-item {
@@ -55,13 +50,13 @@ a {
 }
 
 .navigation-link:hover + .navigation-box {
-    transform: translatey(0);
-    background-color: #2196f3;
+  transform: translatey(0);
+  background-color: #2196f3;
 }
 
 .navigation-link:focus + .navigation-box {
-    transform: translatey(0);
-    background-color: #2196f3;
+  transform: translatey(0);
+  background-color: #2196f3;
 }
 
 .navigation-contacts {
@@ -71,12 +66,6 @@ a {
 
 .header-navigation {
   display: flex;
-}
-
-.navigation-list {
-  display: flex;
-  gap: 50px;
-  margin-left: 93px;
 }
 
 .header-logo {
@@ -366,7 +355,7 @@ a {
 
 .work-box {
   position: absolute;
-  width: 370px;
+  width: 360px;
   height: 70px;
   background-color: #2f303acc;
   left: 0;
@@ -515,26 +504,35 @@ a {
   justify-content: center;
 }
 
-.customers-item {
+.customers-link {
+display: block;
   border: 1px solid #afb1b8;
   padding: 16px 32px;
   border-radius: 4px;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-item:hover {
+.customers-link:hover,
+.customers-link:focus {
   border: 1px solid #2196f3;
-  transition: 800ms;
 }
 
 .customers-icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-item:hover .customers-icon {
+.customers-link:hover,
+.customers-link:focus .customers-icon {
   fill: #2196f3;
-  transition: 800ms;
 }
 
 /* FOOTER */
@@ -543,6 +541,10 @@ a {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-logo {
+  font-family: "Raleway";
 }
 
 .footer-container {
@@ -662,7 +664,7 @@ a {
   background-color: rgba(33, 150, 243, 0);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   flex-shrink: 0;
-  padding: 15px 227px 15px 16px;
+  padding: 15px 167px 15px 16px;
   margin-right: 12px;
 }
 
