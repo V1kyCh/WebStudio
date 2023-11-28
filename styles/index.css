@@ -13,7 +13,7 @@ body {
 /* HEADER */
 
 .header {
-  padding-top: 32px;
+  padding-top: 24px;
   padding-bottom: 25px;
 }
 
@@ -724,3 +724,6 @@ input.footer-input::placeholder {
   left: 148px;
   top: 13px;
 }
+
+
+
