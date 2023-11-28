@@ -14,52 +14,12 @@ body {
 
 .header {
   border-bottom: 1px solid #ececec;
-}
-
-.header-logo {
-  font-family: "Raleway";
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-navigation {
   display: flex;
-}
-
-.navigation-list {
-  display: flex;
-  gap: 50px;
-  margin-left: 93px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-.navigation-item {
-  position: relative;
-}
-
-.navigation-box {
-  display: block;
-  position: absolute;
-  top: 47px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: white;
-  transform: translatey(100%);
-
-  transition-property: transform, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.navigation-link:hover + .navigation-box {
-  transform: translatey(0);
-  background-color: #2196f3;
-}
-
-.navigation-link:focus + .navigation-box {
-  transform: translatey(0);
-  background-color: #2196f3;
 }
 
 .header-logo {
@@ -69,42 +29,21 @@ body {
   line-height: 1.19230769;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .header-logo span {
   color: #000;
 }
 
-.navigation-second-page {
-  display: block;
-  position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14285714;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-}
-
-.navigation-second-page::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 47px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #2196f3;
-}
-
-.navigation-contacts {
+.navigation-list {
   display: flex;
-  margin-left: auto;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-left: 93px;
+  align-items: center;
+}
+
+.navigation-item {
+  position: relative;
 }
 
 .navigation-link {
@@ -127,6 +66,78 @@ body {
   color: #2196f3;
 }
 
+.navigation-widget {
+  display: block;
+  position: absolute;
+  top: 47px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: white;
+  transform: translatey(100%);
+
+  transition-property: transform, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-link:hover + .navigation-widget {
+  transform: translatey(0);
+  background-color: #2196f3;
+}
+
+.navigation-link:focus + .navigation-widget {
+  transform: translatey(0);
+  background-color: #2196f3;
+}
+
+.navigation-second-page {
+  display: block;
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14285714;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.navigation-second-page::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196f3;
+}
+
+.navigation-contacts {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-link:hover {
+  transform: scale(1.02);
+}
+
+.contact-link:focus {
+  transform: scale(1.02);
+}
+
 .contact-text {
   font-weight: 500;
   font-size: 14px;
@@ -145,16 +156,6 @@ body {
 
 .contact-link:focus .contact-text {
   color: #2196f3;
-}
-
-.contact-link {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-icon-mail {
@@ -185,11 +186,11 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-contact:hover .svg-icon-smartphone {
+.contact-link:hover .svg-icon-smartphone {
   fill: #2196f3;
 }
 
-.navigation-contact:focus .svg-icon-smartphone {
+.contact-link:focus .svg-icon-smartphone {
   fill: #2196f3;
 }
 
@@ -202,9 +203,13 @@ body {
 }
 
 .main-navigation-item {
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-navigation-item:hover {
+  transform: scale(1.06);
 }
 
 .section-navigation {
@@ -223,7 +228,7 @@ body {
   display: block;
   border-radius: 4px;
 
-  transition-property: color, background-color;
+  transition-property: transform, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -260,7 +265,6 @@ body {
 }
 
 .content-item {
-  outline: solid #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
   width: 370px;
   height: 404px;
@@ -270,8 +274,9 @@ body {
   display: block;
   width: 100%;
   height: 100%;
+  outline: solid #eeeeee;
 
-  transition-property: box-shadow;
+  transition-property: box-shadow, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -279,6 +284,7 @@ body {
 .content-link:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
 }
 
 .content-link:focus {
@@ -497,6 +503,14 @@ input.footer-input::placeholder {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 10px 62px 10px 28px;
   position: relative;
+
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:hover {
+  transform: scale(1.03);
 }
 
 .footer-svg {
