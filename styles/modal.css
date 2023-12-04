@@ -62,30 +62,18 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 13px 0 13px 42px;
   width: 448px;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:hover {
   border: 1px solid #2196f3;
 }
 
-.modal-input:hover + .modal-svg {
-  fill: #2196f3;
-}
-
-.modal-input:hover .modal-svg {
-  fill: #2196f3;
-}
-
 .modal-input:focus {
   border: 1px solid #2196f3;
-}
-
-.modal-input:focus + .modal-svg {
-  fill: #2196f3;
-}
-
-.modal-input:focus .modal-svg {
-  fill: #2196f3;
 }
 
 .modal-svg {
@@ -95,6 +83,18 @@
   fill: black;
   top: 14px;
   left: 14px;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:hover + .modal-svg {
+  fill: #2196f3;
+}
+
+.modal-input:focus + .modal-svg {
+  fill: #2196f3;
 }
 
 .modal-people-svg {
@@ -143,6 +143,10 @@
   flex-shrink: 0;
   width: 448px;
   padding: 12px 0 96px 16px;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comment-input:hover {
@@ -205,12 +209,24 @@ input.modal-comment-input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover {
+  transform: scale(1.1);
 }
 
 .modal-close-svg {
   fill: black;
   width: 18px;
   height: 18px;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover .modal-close-svg {
@@ -234,4 +250,13 @@ input.modal-comment-input::placeholder {
   margin-left: auto;
   margin-right: auto;
   display: block;
+
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-button:hover {
+  transform: scale(1.03);
 }
